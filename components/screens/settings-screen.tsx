@@ -128,7 +128,7 @@ export function SettingsScreen({ onBack, onNavigate, isDarkMode, onToggleDarkMod
                     </div>
                     <div>
                       <span className="text-sm md:text-base text-foreground">{item.label}</span>
-                      {item.description && (
+                      {item?.description && (
                         <p className="text-xs md:text-sm text-muted-foreground mt-0.5">{item.description}</p>
                       )}
                     </div>
